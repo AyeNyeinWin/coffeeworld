@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Coffee </title>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" sizes="16x16" href="image/favicon.jpg">
+	
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<!-- icon -->
+	<link rel="stylesheet" type="text/css" href="icon/fontawesome/css/all.min.css">
+
+	<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("#navdi");
+var btns = header.getElementsByClassName("navbtn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+</head>
+<body>
+	<div id="nav">
+
+		<div class="nav_left">
+			<img src="image/logothree.png">
+			<h1>Fragement Coffee House</h1>
+	
+		</div>
+		
+		<div class="nav_right" id="navdi">
+			<a href="#" class="navbtn active" >Welcome</a>
+			<a href="#weoffer1" class="navbtn">We Offer</a>
+			<a href="#ourshop1" class="navbtn">Our Shop</a>
+			<a href="#tsspecial1" class="navbtn">Special</a>
+			<a href="#daily1" class="navbtn">Get In Touch</a>
+		</div>
+		
+		<div class="clear">
+			
+		</div>
+	</div>
+
+	<div id="banner">
+		<img src="image/four.jpg">
+
+		<i class="far fa-heart"></i>
+
+		<div class="quote">
+			 ဝင်ငွေနည်း ပြည်သူများကို အလုပ်အကိုင်ပေးနိုင်မည့် စီမံကိန်း ယခုလစမည်
+		</div>
+	</div>
+	 <div class="container" >
+	<h1>What We Offer</h1>
+	<hr>
+
+	
+	<p class="weoffer" id="weoffer1">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco 
+	</p>
+		<center>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</center>
+		
+	<div class="gridstyle" >
+		<div class="gridcol">
+			<img src="image/coffee.jpg">
+			<h4>COFFEE</h4>
+			<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+
+		</div>
+
+		<div class="gridcol">
+			<img src="image/tea.jpg">
+			<h4>TEA</h4>
+			<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p> 
+
+
+		</div>
+
+		<div class="gridcol">
+			<img src="image/cupcake.jpg">
+			<h4>CUPCAKE</h4>
+			<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p> 
+		
+
+		</div>
+		</div>
+
+		<h1>Our Shop</h1>
+		<hr>
+
+		<div class="ourshop" id="ourshop1">
+
+			<div  class="ourshopimg">
+				<img src="image/five.jpg">
+
+			</div>
+			
+			<div class="ourshoppara">
+				<div>
+					<h4>WHO WE ARE?</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+					</p>
+					
+				</div>
+
+				<div>
+					<h4>WHY CHOOSE US</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+					</p>
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<h1>Tody Special</h1>
+		<hr>
+		<p class="tsspecial" id="tsspecial1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco 
+		</p>
+
+		<center>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</center>
+
+		<div class="rlt">
+
+			<div class="img1">
+				<img src="image/seven.jpg">
+			</div>
+
+
+			<div class="imgdiv">				
+				<div class="img2">
+					<img src="image/six.jpg">
+				</div>
+
+				 <div>
+					<div class="img3">
+						<img src="image/eight.jpg">
+					</div>
+
+					<div class="img4">
+						<img src="image/nine.jpg">
+					</div>
+					
+				</div> 
+			</div>
+		</div>
+
+		<h1>Daily Menu</h1>
+		<hr>
+		<p class="daily" id="daily1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco 
+		</p>
+
+		<center>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</center>
+
+		<div class="food">
+			
+			<div class="img5">
+				<img src="image/ten.jpg">
+			</div>
+
+			<div class="foodtext">
+				<h2> Choose your espresso, love your drink</h2><br><br>
+
+				<ol>
+					<li>Bottled Drinks</li>
+					<li>Freshy Brewed Coffee</li>
+					<li>Bakery</li>
+					<li>Protein Boxes & Bowls</li>
+					<li>Food Nutrition</li>
+					<li>Drink Nutrition</li>
+				</ol>
+			</div>
+		</div>
+
+	</div> 
+	<footer>
+		<p class="copyright">Copyright © 2019,Cafe House.</p>
+		<p class="mynit">Make with love by Myanmar IT Bootcamp Batch 16</p>
+	</footer>
+
+</body>
+</html>

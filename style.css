@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: all;
+}
+
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+}
+
+div#nav div.nav_left h1{
+	font-family: logo;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: bottom;
+}
+
+div#nav div.nav_left{
+	float: left;
+}
+
+div#nav div.nav_right{
+	float: right;
+	margin-top: 20px;
+}
+
+div.nav_right a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px 15px;
+	color: black;
+}
+
+a.active{
+	color: #fff !important;
+	background-color: #080808;
+
+	border-radius: 15px 0px 15px 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+div#banner img{
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+
+}
+
+div#banner i{
+	font-size: 90px;
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 47%;
+
+}
+
+div.quote{
+	font-family: Unicode;
+	background-color: rgba(255,2555,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	padding: 30PX;
+
+}
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+hr{
+	width: 500px;
+	margin: 0 auto;
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:gray;
+}
+
+.weoffer{
+	margin-top: 30px;
+}
+
+div.gridstyle div{
+	
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	height: auto;
+	width: 350px;
+
+}
+
+div.gridstyle{
+	display: grid;
+	grid-template-columns:auto auto auto;
+	display: grid;
+	grid-template-columns:auto auto auto;
+	grid-column-gap:50px;
+	margin-top: 30px;
+}
+
+div.gridstyle .para{
+	color: black;
+}
+
+div.gridcol p{
+	font-size: 18px;
+	
+}
+
+h4{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+}
+
+div.gridcol img{
+	width: 100px;
+	height: 100px;
+}
+
+div.ourshop img{
+	width: 300px;
+	height: 250px;
+	padding-right: 30px;
+}
+
+div.ourshop .ourshopimg{
+	float: left;
+}
+.ourshoppara{
+	margin-top: 40px;
+	padding-left: 30px;
+}
+
+.tsspecial{
+	margin-top: 30px;
+}
+
+.img1{
+	/*float: left;*/
+}
+.img1 img{
+	width: 50%;
+	height: 400px;
+	float: left;
+	margin-right: 80px;
+    margin-left: 70px;
+}
+
+.rlt{
+	margin-top: 20px;
+}
+
+.img2 img{
+	width: 30%;
+	height: 200px;
+}
+
+.img3 img{
+	height: 200px;
+	width: 14%;
+	float: left;
+	padding-right: 2%;
+}
+
+.img4 img{
+	height: 200px;
+	width: 14%;
+}
+
+.food{
+	margin-top: 60px;
+	margin-bottom: 100px;
+
+}
+.img5{
+	float: left;
+	margin-right: 300px;
+}
+.img5 img{
+	width: 370px;
+	height: 350px;
+	
+}
+
+ol li{
+	line-height: 45px;
+	font-size: 20px;
+}
+
+footer{
+	background: black;
+	height: 50px;
+	padding-top: 20px;
+}
+footer .copyright{
+	float: left;
+	color: white;
+	padding-left: 10%;
+}
+footer .mynit{
+	color:white;
+	padding-left: 70%;
+}
